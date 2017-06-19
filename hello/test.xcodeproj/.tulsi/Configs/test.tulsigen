@@ -1,0 +1,54 @@
+{
+  "sourceFilters" : [
+    "@build_bazel_rules_apple",
+    "@build_bazel_rules_apple\/apple",
+    "@build_bazel_rules_apple\/apple\/bundling",
+    "@build_bazel_rules_apple\/apple\/testing",
+    "hello"
+  ],
+  "buildTargets" : [
+    "\/\/hello:Hello"
+  ],
+  "projectName" : "test",
+  "optionSet" : {
+    "BazelBuildOptionsDebug" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsRelease" : {
+      "p" : ""
+    },
+    "LaunchActionPreActionScript" : {
+      "p" : ""
+    },
+    "BazelBuildOptionsRelease" : {
+      "p" : ""
+    },
+    "EnvironmentVariables" : {
+      "p" : ""
+    },
+    "BuildActionPreActionScript" : {
+      "p" : ""
+    },
+    "CommandlineArguments" : {
+      "p" : ""
+    },
+    "TestActionPreActionScript" : {
+      "p" : ""
+    },
+    "TestActionPostActionScript" : {
+      "p" : ""
+    },
+    "BuildActionPostActionScript" : {
+      "p" : ""
+    },
+    "BazelBuildStartupOptionsDebug" : {
+      "p" : ""
+    },
+    "LaunchActionPostActionScript" : {
+      "p" : ""
+    }
+  },
+  "additionalFilePaths" : [
+    "hello\/BUILD"
+  ]
+}

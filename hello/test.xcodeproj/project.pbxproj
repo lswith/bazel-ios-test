@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6AF494732B856F600000000 /* Hello.swift in hello */ = {isa = PBXBuildFile; fileRef = 43D68C2832B856F600000000 /* Hello.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		819366726921D83500000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7BD0EA6B4B9B2500000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCC95946921D83400000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43D68C280C25C21C00000000 /* plist_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = plist_support.bzl; sourceTree = "<group>"; };
+		43D68C281A82B96800000000 /* rule_factory.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = rule_factory.bzl; sourceTree = "<group>"; };
+		43D68C281C1ECFF400000000 /* attribute_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = attribute_support.bzl; sourceTree = "<group>"; };
+		43D68C2820127E2600000000 /* apple_bundling_aspect.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = apple_bundling_aspect.bzl; sourceTree = "<group>"; };
+		43D68C2823E5A30600000000 /* entitlements.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = entitlements.bzl; sourceTree = "<group>"; };
+		43D68C2830A2DD0600000000 /* file_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = file_support.bzl; sourceTree = "<group>"; };
+		43D68C2832B856F600000000 /* Hello.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hello.swift; sourceTree = "<group>"; };
+		43D68C2833D515F600000000 /* debug_symbol_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = debug_symbol_actions.bzl; sourceTree = "<group>"; };
+		43D68C283C72BB1A00000000 /* swift.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = swift.bzl; sourceTree = "<group>"; };
+		43D68C283F019E6E00000000 /* xcode_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = xcode_support.bzl; sourceTree = "<group>"; };
+		43D68C2846C21CC600000000 /* resource_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = resource_actions.bzl; sourceTree = "<group>"; };
+		43D68C28470C069400000000 /* platform_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = platform_support.bzl; sourceTree = "<group>"; };
+		43D68C2849BB0FC600000000 /* test_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = test_support.bzl; sourceTree = "<group>"; };
+		43D68C284F09A3BC00000000 /* Hello.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Hello.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C285495BE9800000000 /* bundler.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = bundler.bzl; sourceTree = "<group>"; };
+		43D68C2855FE0F6400000000 /* codesigning_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = codesigning_support.bzl; sourceTree = "<group>"; };
+		43D68C285B28D88000000000 /* providers.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = providers.bzl; sourceTree = "<group>"; };
+		43D68C286AB91A9E00000000 /* resource_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = resource_support.bzl; sourceTree = "<group>"; };
+		43D68C2879C0C52200000000 /* utils.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = utils.bzl; sourceTree = "<group>"; };
+		43D68C287D8AE9F600000000 /* product_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = product_actions.bzl; sourceTree = "<group>"; };
+		43D68C287F77FD1A00000000 /* mock_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = mock_support.bzl; sourceTree = "<group>"; };
+		43D68C28835BCC9400000000 /* _idx_Sources_BF3CDABE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = _idx_Sources_BF3CDABE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43D68C288D41E84E00000000 /* product_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = product_support.bzl; sourceTree = "<group>"; };
+		43D68C288FC804F000000000 /* bundling_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = bundling_support.bzl; sourceTree = "<group>"; };
+		43D68C28A30B46A000000000 /* provider_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = provider_support.bzl; sourceTree = "<group>"; };
+		43D68C28B7B6EFA200000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		43D68C28B7EA446800000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		43D68C28B7EA446800000001 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		43D68C28B7EA446800000002 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		43D68C28B7EA446800000003 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; path = BUILD; sourceTree = "<group>"; };
+		43D68C28BAAF4A1600000000 /* run_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = run_actions.bzl; sourceTree = "<group>"; };
+		43D68C28BD1918C800000000 /* apple_test_rules.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = apple_test_rules.bzl; sourceTree = "<group>"; };
+		43D68C28C59180F200000000 /* ios_rules.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = ios_rules.bzl; sourceTree = "<group>"; };
+		43D68C28C59180F200000001 /* ios_rules.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = ios_rules.bzl; sourceTree = "<group>"; };
+		43D68C28D46E01D200000000 /* ios.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = ios.bzl; sourceTree = "<group>"; };
+		43D68C28D5682C4A00000000 /* swift_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = swift_actions.bzl; sourceTree = "<group>"; };
+		43D68C28E19DE75000000000 /* binary_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = binary_support.bzl; sourceTree = "<group>"; };
+		43D68C28EC514B2400000000 /* bitcode_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = bitcode_actions.bzl; sourceTree = "<group>"; };
+		43D68C28EE372A2200000000 /* swift_support.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = swift_support.bzl; sourceTree = "<group>"; };
+		43D68C28F35EC44400000000 /* plist_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = plist_actions.bzl; sourceTree = "<group>"; };
+		43D68C28F503DEAE00000000 /* file_actions.bzl */ = {isa = PBXFileReference; lastKnownFileType = com.google.bazel.skylark; path = file_actions.bzl; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		966FB6DE11BB9BD200000000 /* / */ = {
+			isa = PBXGroup;
+			children = (
+				966FB6DEF23CA3AC00000000 /* apple */,
+			);
+			path = "";
+			sourceTree = "<group>";
+		};
+		966FB6DE2BD1037D00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C284F09A3BC00000000 /* Hello.framework */,
+				43D68C28835BCC9400000000 /* _idx_Sources_BF3CDABE.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966FB6DE4F54074800000000 /* testing */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C28B7EA446800000002 /* BUILD */,
+				43D68C28BD1918C800000000 /* apple_test_rules.bzl */,
+				43D68C28C59180F200000001 /* ios_rules.bzl */,
+			);
+			path = testing;
+			sourceTree = "<group>";
+		};
+		966FB6DE57767A3000000000 /* hello */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C28B7EA446800000003 /* BUILD */,
+				43D68C2832B856F600000000 /* Hello.swift */,
+				43D68C28B7B6EFA200000000 /* Info.plist */,
+			);
+			path = hello;
+			sourceTree = "<group>";
+		};
+		966FB6DE6C1A2E9100000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				966FB6DED15CE7E200000000 /* @build_bazel_rules_apple */,
+				966FB6DE2BD1037D00000000 /* Products */,
+				966FB6DE57767A3000000000 /* hello */,
+			);
+			name = mainGroup;
+			path = ..;
+			sourceTree = SOURCE_ROOT;
+		};
+		966FB6DE89AD10F400000000 /* bundling */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C28B7EA446800000001 /* BUILD */,
+				43D68C2820127E2600000000 /* apple_bundling_aspect.bzl */,
+				43D68C281C1ECFF400000000 /* attribute_support.bzl */,
+				43D68C28E19DE75000000000 /* binary_support.bzl */,
+				43D68C28EC514B2400000000 /* bitcode_actions.bzl */,
+				43D68C285495BE9800000000 /* bundler.bzl */,
+				43D68C288FC804F000000000 /* bundling_support.bzl */,
+				43D68C2855FE0F6400000000 /* codesigning_support.bzl */,
+				43D68C2833D515F600000000 /* debug_symbol_actions.bzl */,
+				43D68C2823E5A30600000000 /* entitlements.bzl */,
+				43D68C28F503DEAE00000000 /* file_actions.bzl */,
+				43D68C2830A2DD0600000000 /* file_support.bzl */,
+				43D68C28C59180F200000000 /* ios_rules.bzl */,
+				43D68C287F77FD1A00000000 /* mock_support.bzl */,
+				43D68C28470C069400000000 /* platform_support.bzl */,
+				43D68C28F35EC44400000000 /* plist_actions.bzl */,
+				43D68C280C25C21C00000000 /* plist_support.bzl */,
+				43D68C287D8AE9F600000000 /* product_actions.bzl */,
+				43D68C288D41E84E00000000 /* product_support.bzl */,
+				43D68C28A30B46A000000000 /* provider_support.bzl */,
+				43D68C2846C21CC600000000 /* resource_actions.bzl */,
+				43D68C286AB91A9E00000000 /* resource_support.bzl */,
+				43D68C281A82B96800000000 /* rule_factory.bzl */,
+				43D68C28BAAF4A1600000000 /* run_actions.bzl */,
+				43D68C28D5682C4A00000000 /* swift_actions.bzl */,
+				43D68C28EE372A2200000000 /* swift_support.bzl */,
+				43D68C2849BB0FC600000000 /* test_support.bzl */,
+				43D68C283F019E6E00000000 /* xcode_support.bzl */,
+			);
+			path = bundling;
+			sourceTree = "<group>";
+		};
+		966FB6DED15CE7E200000000 /* @build_bazel_rules_apple */ = {
+			isa = PBXGroup;
+			children = (
+				966FB6DE11BB9BD200000000 /* / */,
+			);
+			path = "@build_bazel_rules_apple";
+			sourceTree = "<group>";
+		};
+		966FB6DEF23CA3AC00000000 /* apple */ = {
+			isa = PBXGroup;
+			children = (
+				43D68C28B7EA446800000000 /* BUILD */,
+				966FB6DE89AD10F400000000 /* bundling */,
+				43D68C28D46E01D200000000 /* ios.bzl */,
+				43D68C285B28D88000000000 /* providers.bzl */,
+				43D68C283C72BB1A00000000 /* swift.bzl */,
+				966FB6DE4F54074800000000 /* testing */,
+				43D68C2879C0C52200000000 /* utils.bzl */,
+			);
+			path = apple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		ECCC95946921D83400000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/Cellar/bazel/0.5.1/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = DE475583CA83BF7E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "${SRCROOT}/..";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		3D31C5E60497427000000000 /* Hello */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4755837B92130E00000000 /* Build configuration list for PBXNativeTarget "Hello" */;
+			buildPhases = (
+				84B422718DCB80A100000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAD0B426921D83500000000 /* PBXTargetDependency */,
+			);
+			name = Hello;
+			productName = Hello;
+			productReference = 43D68C284F09A3BC00000000 /* Hello.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D31C5E6B5875C8800000000 /* _idx_Sources_BF3CDABE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE4755834C95D56A00000000 /* Build configuration list for PBXNativeTarget "_idx_Sources_BF3CDABE" */;
+			buildPhases = (
+				605793E20000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAD0B426921D83500000000 /* PBXTargetDependency */,
+			);
+			name = _idx_Sources_BF3CDABE;
+			productName = _idx_Sources_BF3CDABE;
+			productReference = 43D68C28835BCC9400000000 /* _idx_Sources_BF3CDABE.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7BD0EA6B4B9B2500000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = DE475583626447DF00000000 /* Build configuration list for PBXProject "test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 966FB6DE6C1A2E9100000000 /* mainGroup */;
+			targets = (
+				3D31C5E60497427000000000 /* Hello */,
+				ECCC95946921D83400000000 /* _bazel_clean_ */,
+				3D31C5E6B5875C8800000000 /* _idx_Sources_BF3CDABE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84B422718DCB80A100000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //hello:Hello --bazel \"/usr/local/Cellar/bazel/0.5.1/bin/bazel\" --bazel_bin_path \"bazel-bin\" --bazel_package_path \"%workspace%\" --verbose --bazel_options  -- --bazel_startup_options  --  --install_generated_artifacts";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		605793E20000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				E6AF494732B856F600000000 /* Hello.swift in hello */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DAD0B426921D83500000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 819366726921D83500000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44936BD67EED3C4D00000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_WR)/tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault;
+				TULSI_BWRS = "${TULSI_WR}/bazel-bazel-ios-test";
+				TULSI_PROJECT = test;
+				TULSI_VERSION = 0.4.158271088.20170607;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Debug;
+		};
+		44936BD67EED3C4D00000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_BINARY_DSYM = hello/Hello.apple_binary.framework.dSYM;
+				BAZEL_BINARY_TARGET = "//hello:Hello.apple_binary";
+				BAZEL_OUTPUTS = "bazel-bin/hello/Hello.zip";
+				BAZEL_TARGET = "//hello:Hello";
+				BAZEL_TARGET_TYPE = ios_framework;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello;
+				PRODUCT_NAME = Hello;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = hello;
+				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
+			};
+			name = Debug;
+		};
+		44936BD67EED3C4D00000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/tools/cpp/gcc3 ";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_Sources_BF3CDABE;
+				SDKROOT = iphonesimulator;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_WR)/tulsi-includes/x/x/hello/Sources/_objs";
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		44936BD6A3D45CE900000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_WR)/tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
+				TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault;
+				TULSI_BWRS = "${TULSI_WR}/bazel-bazel-ios-test";
+				TULSI_PROJECT = test;
+				TULSI_USE_DSYM = YES;
+				TULSI_VERSION = 0.4.158271088.20170607;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Release;
+		};
+		44936BD6A3D45CE900000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_BINARY_DSYM = hello/Hello.apple_binary.framework.dSYM;
+				BAZEL_BINARY_TARGET = "//hello:Hello.apple_binary";
+				BAZEL_OUTPUTS = "bazel-bin/hello/Hello.zip";
+				BAZEL_TARGET = "//hello:Hello";
+				BAZEL_TARGET_TYPE = ios_framework;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello;
+				PRODUCT_NAME = Hello;
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = hello;
+				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
+			};
+			name = Release;
+		};
+		44936BD6A3D45CE900000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_BWRS)/tools/cpp/gcc3 ";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_Sources_BF3CDABE;
+				SDKROOT = iphonesimulator;
+				SWIFT_INCLUDE_PATHS = "$(inherited) $(TULSI_WR)/tulsi-includes/x/x/hello/Sources/_objs";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		44936BD6C928366700000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-help";
+				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 3.0;
+				TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault;
+				TULSI_BWRS = "${TULSI_WR}/bazel-bazel-ios-test";
+				TULSI_PROJECT = test;
+				TULSI_VERSION = 0.4.158271088.20170607;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		44936BD6C928366700000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_BINARY_DSYM = hello/Hello.apple_binary.framework.dSYM;
+				BAZEL_BINARY_TARGET = "//hello:Hello.apple_binary";
+				BAZEL_OUTPUTS = "bazel-bin/hello/Hello.zip";
+				BAZEL_TARGET = "//hello:Hello";
+				BAZEL_TARGET_TYPE = ios_framework;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-help";
+				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello;
+				PRODUCT_NAME = Hello;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = hello;
+				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		44936BD6FCBCA00300000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-help";
+				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				SWIFT_VERSION = 3.0;
+				TOOLCHAINS = com.apple.dt.toolchain.XcodeDefault;
+				TULSI_BWRS = "${TULSI_WR}/bazel-bazel-ios-test";
+				TULSI_PROJECT = test;
+				TULSI_USE_DSYM = YES;
+				TULSI_VERSION = 0.4.158271088.20170607;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		44936BD6FCBCA00300000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_BINARY_DSYM = hello/Hello.apple_binary.framework.dSYM;
+				BAZEL_BINARY_TARGET = "//hello:Hello.apple_binary";
+				BAZEL_OUTPUTS = "bazel-bin/hello/Hello.zip";
+				BAZEL_TARGET = "//hello:Hello";
+				BAZEL_TARGET_TYPE = ios_framework;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-help";
+				OTHER_LDFLAGS = "-help";
+				OTHER_SWIFT_FLAGS = "-help";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.hello;
+				PRODUCT_NAME = Hello;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = hello;
+				TULSI_USE_DSYM = YES;
+				TULSI_USE_DYNAMIC_OUTPUTS = YES;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4755834C95D56A00000000 /* Build configuration list for PBXNativeTarget "_idx_Sources_BF3CDABE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44936BD67EED3C4D00000002 /* Debug */,
+				44936BD6A3D45CE900000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE475583626447DF00000000 /* Build configuration list for PBXProject "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44936BD67EED3C4D00000000 /* Debug */,
+				44936BD6A3D45CE900000000 /* Release */,
+				44936BD6C928366700000000 /* __TulsiTestRunner_Debug */,
+				44936BD6FCBCA00300000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE4755837B92130E00000000 /* Build configuration list for PBXNativeTarget "Hello" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44936BD67EED3C4D00000001 /* Debug */,
+				44936BD6A3D45CE900000001 /* Release */,
+				44936BD6C928366700000001 /* __TulsiTestRunner_Debug */,
+				44936BD6FCBCA00300000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE475583CA83BF7E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7BD0EA6B4B9B2500000000 /* Project object */;
+}

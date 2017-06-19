@@ -1,0 +1,64 @@
+{
+  "manifestVersion" : 3,
+  "artifacts" : [
+    "Hello.framework\/**",
+    "_idx_Sources_BF3CDABE.framework\/**"
+  ],
+  "targets" : {
+    "_idx_Sources_BF3CDABE" : [
+
+    ],
+    "_bazel_clean_" : [
+
+    ],
+    "Hello" : [
+      "bazel-bin\/hello\/Hello.zip"
+    ]
+  },
+  "intermediateArtifacts" : {
+    "Hello" : [
+
+    ]
+  },
+  "fileReferences" : [
+    "..\/@build_bazel_rules_apple\/\/apple\/BUILD",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/BUILD",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/apple_bundling_aspect.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/attribute_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/binary_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/bitcode_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/bundler.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/bundling_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/codesigning_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/debug_symbol_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/entitlements.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/file_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/file_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/ios_rules.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/mock_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/platform_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/plist_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/plist_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/product_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/product_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/provider_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/resource_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/resource_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/rule_factory.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/run_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/swift_actions.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/swift_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/test_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/bundling\/xcode_support.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/ios.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/providers.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/swift.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/testing\/BUILD",
+    "..\/@build_bazel_rules_apple\/\/apple\/testing\/apple_test_rules.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/testing\/ios_rules.bzl",
+    "..\/@build_bazel_rules_apple\/\/apple\/utils.bzl",
+    "..\/hello\/BUILD",
+    "..\/hello\/Hello.swift",
+    "..\/hello\/Info.plist"
+  ]
+}
